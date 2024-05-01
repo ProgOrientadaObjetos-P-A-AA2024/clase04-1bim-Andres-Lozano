@@ -8,7 +8,7 @@ package paquete1;
 public class Ejecutable {
     public static void main(String[] args) {
         // Se crea un objeto
-        Computadora computadoraPersonal = new Computadora();
+        Computadora computadoraPersonal = new Computadora("Intel-x19", 6.1 + 4, 2);
         
         // Se asigna valores particulares al objeto
         // a través de los métodos establecer

@@ -1,19 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package paquete1;
+
+
 
 public class Computadora {
     private String tipoProcesador;
     private double memoria;
     
-    public Computadora(String intelx19, double par, int par1){
-        tipoProcesador = "Intel - X";
-        memoria = 16;
-                
-    }
     
     public Computadora(double m){
         memoria = m;
