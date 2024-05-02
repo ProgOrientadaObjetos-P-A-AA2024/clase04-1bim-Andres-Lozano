@@ -1,5 +1,9 @@
-
-package paquete2;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package paquete3;
 
 
 
@@ -7,23 +11,7 @@ public class Computadora {
     private String tipoProcesador;
     private double memoria;
     
-  
-    
-    public Computadora(double m){
-        memoria = m;
-                
-    }
-    
-    public Computadora(String tipo ){
-        tipoProcesador = tipo;
-                
-    }
-
-    public Computadora(String tipo, double mem ){
-        memoria = mem;
-        tipoProcesador = tipo;
-                
-    }
+ 
     
     
     // métodos establecer para cada atributo

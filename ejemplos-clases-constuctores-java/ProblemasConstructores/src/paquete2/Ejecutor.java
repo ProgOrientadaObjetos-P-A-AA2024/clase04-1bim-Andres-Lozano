@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package paquete2;
 
-/**
- *
- * @author reroes
- */
+import java.util.Scanner;
+
 public class Ejecutor {
     public static void main(String[] args) {
         
@@ -16,14 +10,26 @@ public class Ejecutor {
         Ingresar la información por teclado.
         */
         
-        Hospital h1 = new Hospital("Militar", "Loja", 1000, 3000);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese el nombre del hospital");
+        String a = sc.nextLine();
+        System.out.println("Ingrese la ciudad");
+        String b = sc.nextLine();
+        System.out.println("Ingrese el numero de doctores");
+        int c =sc.nextInt();
+          System.out.println("Ingrese el numero de enfermeros");
+        int d =sc.nextInt();
         
-        h1.establecerNombre("Hospital Militar Privado");
         
-        Hospital h2 = new Hospital("Militar DOS", "Loja", 1000, 3000);
         
-        System.out.printf("%s\n", h1);
-        System.out.printf("%s\n", h2);
+                
+        Hospital h1 = new Hospital(a,b,c,d);
+        
+    
+      
+        
+        System.out.println( h1);
+        
         
     }
 }

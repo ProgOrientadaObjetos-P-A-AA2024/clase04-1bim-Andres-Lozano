@@ -9,7 +9,7 @@ public class Computadora {
     private String tipoProcesador;
     private double memoria;
     
-    public Computadora(String intelx19, double par, int par1){
+    public Computadora(){
         tipoProcesador = "Intel - X";
         memoria = 16;
                 

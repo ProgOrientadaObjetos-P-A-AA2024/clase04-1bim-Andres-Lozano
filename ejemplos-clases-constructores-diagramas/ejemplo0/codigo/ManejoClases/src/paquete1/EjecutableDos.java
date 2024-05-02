@@ -1,19 +1,15 @@
 
 package paquete1;
 
-/**
- *
- * @author Usuario iTC
- */
-public class EjecutableDos {
-    public static void main (String []arg){
-        Computadora personal=new Computadora(24,0);
-        personal.establecerTipoProcesador("R1");
+public class ejecutableDos {
+    public static void main(String[]args){
+        Computadora personal = new Computadora ();
+        personal.establecerTipoProcesador("Intel vPRo");
         
-        System.out.printf("%s-%.2f",
-        personal.obtenerMemoria(),
-        personal.obtenerTipoProcesador);
-        
+      
+        System.out.printf("%s - %.2f",  personal.obtenerTipoProcesador(),
+        personal.obtenerMemoria());
+       
+                
     }
-    
 }
